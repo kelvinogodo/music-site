@@ -453,6 +453,11 @@ footer p {
 .contact-form-container{
 	margin-bottom: 100px;
 }
+textarea{
+	text-indent: 20px;
+	font-size: 1rem;
+	font-family: var(--font-lg);
+}
 .tracks-landpage {
 	height: auto;
 	padding: 10px 0px 60px 0px;
