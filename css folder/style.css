@@ -587,6 +587,22 @@ textarea {
 	margin-top: 20px;
 	border: 2px solid rgba(60, 141, 247, 0.678);
 }
+.blues-landpage{
+	height: 350px;
+	background-image: url(../images/worship\ \(1\).jpg);
+}
+.worship-landpage{
+	height: 350px;
+	background-image: url(../images/gradient\ \(2\).jpg);
+}
+.jazz-landpage{
+	height: 350px;
+	background-image: url(../images/celeb\ \(3\).jpg);
+}
+.regge-landpage{
+	height: 350px;
+	background-image: url(../images/worship\ \(1\).jpg);
+}
 @media (max-width: 1024px) and (min-width: 888px) {
 	.menu-container {
 		width: 60px;
