@@ -599,9 +599,12 @@ textarea {
 	height: 350px;
 	background-image: url(../images/celeb\ \(3\).jpg);
 }
-.regge-landpage{
+.hip-hop-landpage{
 	height: 350px;
-	background-image: url(../images/worship\ \(1\).jpg);
+	background-image: url(../images/player\ \(3\).jpg);
+}
+.hip-hop-landpage .landpage-text h5{
+	color: var(--white-color);
 }
 @media (max-width: 1024px) and (min-width: 888px) {
 	.menu-container {
