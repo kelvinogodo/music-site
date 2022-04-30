@@ -99,15 +99,15 @@
 
         <div class="service-card">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
-            <img src="{{('data/images/profile1.jpg')}}" alt="" class="review-pics">
+            <img src="{{asset('data/images/profile1.jpg')}}" alt="" class="review-pics">
         </div>
         <div class="service-card">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
-            <img src="{{('data/images/celeb (3).jpg')}}" alt="" class="review-pics">
+            <img src="{{asset('data/images/celeb (3).jpg')}}" alt="" class="review-pics">
         </div>
         <div class="service-card">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
-            <img src="{{('data/images/celeb (1).jpg')}}" alt="" class="review-pics">
+            <img src="{{asset('data/images/celeb (1).jpg')}}" alt="" class="review-pics">
         </div>
     </section>
         <h5 class="header-2">contact me</h2>
@@ -120,20 +120,20 @@
         <!-- email detail car  -->
 
         <div class="plan-card">
-            <img src="{{('data/images/mail.png')}}" alt="" class="icon">
+            <img src="{{asset('data/images/mail.png')}}" alt="" class="icon">
             <p> johnDoe@gmail.com</p>
         </div>
 
         <!-- mobile number detail card  -->
 
         <div class="plan-card">
-            <img src="{{('data/images/phone.png')}}" alt="" class="icon">
+            <img src="{{asset('data/images/phone.png')}}" alt="" class="icon">
             <p>+234 7045783982 <br> +234 8046284682</p></div>
 
             <!-- location detail card  -->
 
         <div class="plan-card">
-            <img src="{{('data/images/down arrow.png')}}" alt="" class="icon">
+            <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon">
             <p>no:4 lagos island, LAGOS , NIGERIA</p></div>
     </section>
 
@@ -141,13 +141,13 @@
 
     <footer>
         <div class="social-media-icon-container">
-            <a href=""><img src="{{('data/images/fb.png')}}" alt="" class="social-media-icon"></a>
-            <a href=""><img src="{{('data/images/twitter.png')}}" alt="" class="social-media-icon"></a>
-            <a href=""><img src="{{('data/images/insta.png')}}" alt="" class="social-media-icon"></a>
-            <a href=""><img src="{{('data/images/whatsapp.png')}}" alt="" class="social-media-icon"></a>
+            <a href=""><img src="{{asset('data/images/fb.png')}}" alt="" class="social-media-icon"></a>
+            <a href=""><img src="{{asset('data/images/twitter.png')}}" alt="" class="social-media-icon"></a>
+            <a href=""><img src="{{asset('data/images/insta.png')}}" alt="" class="social-media-icon"></a>
+            <a href=""><img src="{{asset('data/images/whatsapp.png')}}" alt="" class="social-media-icon"></a>
         </div>
         <p>&copy;copyright 2022 <br>All rights reserved</p>
     </footer>
-   <script src="{{('data/js/main.js')}}"></script>
+   <script src="{{asset('data/js/main.js')}}"></script>
 </body>
 </html>
