@@ -29,10 +29,10 @@ Route::get('/', function () {
 
 Route::get("/index", [HomeController::class, "index"])->name("index");
 Route::get("/contact", [HomeController::class, "contact"])->name("contact");
-// Route::post("/contact/store", [ContactMeController::class, "store"])->name("contact.store");
+Route::post("/contact/store", [ContactMeController::class, "store"])->name("contact.store");
 Route::get("/blues", [HomeController::class, "blues"])->name("blues");
 Route::get("/gospel", [HomeController::class, "gospel"])->name("gospel");
-Route::get("/hip-hop", [HomeController::class, "hip-hop"])->name("hip-hop");
+Route::get("/hiphop", [HomeController::class, "hiphop"])->name("hiphop");
 Route::get("/jazz", [HomeController::class, "jazz"])->name("jazz");
 Route::get("/regge", [HomeController::class, "regge"])->name("regge");
 Route::get("/tracks", [HomeController::class, "tracks"])->name("tracks");

@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo-container">
-            <p>FESHOW VIBES</p>
+            <p style="color: white">FESHOW VIBES</p>
         </div>
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">
@@ -50,7 +50,7 @@
                 <p>Regge</p>
             </div>
         </a>
-        <a href="{{route('hip-hop')}}">
+        <a href="{{route('hiphop')}}">
             <div class="category-card second track-card">
                 <p>Hip-hop</p>
             </div>
@@ -99,20 +99,20 @@
         </div>
     </section>
     <div class="blue-burble"></div>
-    <h5 class="header-2">contact me</h2>
-        <p class="header-3">Lorem ipsum dolor sit amet.</p>
+    <h5 class="header-2" style="color: white">contact me</h2>
+        <p class="header-3" style="color: white">Lorem ipsum dolor sit amet.</p>
         <section class="plans-section">
             <div class="plan-card">
-                <img src="{{asset('data/images/mail.png')}}" alt="" class="icon">
-                <p> johnDoe@gmail.com</p>
+                <img src="{{asset('data/images/mail.png')}}" alt="" class="icon" style="background-color: white">
+                <p style="color: white"> johnDoe@gmail.com</p>
             </div>
             <div class="plan-card">
-                <img src="{{asset('data/images/phone.png')}}" alt="" class="icon">
-                <p>+234 7045783982 <br> +234 8046284682</p>
+                <img src="{{asset('data/images/phone.png')}}" alt="" class="icon" style="background-color: white">
+                <p style="color: white">+234 7045783982 <br> +234 8046284682</p>
             </div>
             <div class="plan-card">
-                <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon">
-                <p>no:4 lagos island, LAGOS , NIGERIA</p></div>
+                <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon" style="background-color: white">
+                <p style="color: white">no:4 lagos island, LAGOS , NIGERIA</p></div>
             </div>
         </section>
         <footer>
@@ -122,7 +122,7 @@
                 <a href=""><img src="{{asset('data/images/insta.png')}}" alt="" class="social-media-icon"></a>
                 <a href=""><img src="{{asset('data/images/whatsapp.png')}}" alt="" class="social-media-icon"></a>
             </div>
-            <p>&copy;copyright 2022 <br>All rights reserved</p>
+            <p style="color: white">&copy;copyright 2022 <br>All rights reserved</p>
         </footer>
 <script src="{{asset('data/js/main.js')}}"></script>
 </body>

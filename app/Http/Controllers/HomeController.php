@@ -24,7 +24,7 @@ class HomeController extends Controller
         }
 
         public function hiphop(){
-            return view("hip-hop");
+            return view("hiphop");
         }
 
         public function jazz(){

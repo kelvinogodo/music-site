@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo-container">
-            <p>FESHOW VIBES</p>
+            <p style="color: white">FESHOW VIBES</p>
         </div>
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">
@@ -49,7 +49,7 @@
                 <p>Regge</p>
             </div>
         </a>
-        <a href="{{route('hip-hop')}}">
+        <a href="{{route('hiphop')}}">
             <div class="category-card second track-card">
                 <p>Hip-hop</p>
             </div>
@@ -87,7 +87,7 @@
             <audio src="{{asset('data/images/ka-anyi-na-ayo.mp3')}}" controls >ka anyi na ayo ; by phyno</audio>
         </div>
         <div class="music-card">
-            <img src="{{assset('data/images/gradient (1).jpg')}}" alt="" class="music-art-work">
+            <img src="{{asset('data/images/gradient (1).jpg')}}" alt="" class="music-art-work">
             <p>ayo'm :</p>
             <audio src="{{asset('data/images/ka-anyi-na-ayo.mp3')}}" controls >ka anyi na ayo ; by phyno</audio>
         </div>
@@ -100,7 +100,7 @@
     <div class="blue-burble"></div>
         <footer>
             <div class="social-media-icon-conainer"></div>
-            <p>&copy;copyright 2022 <br>All rights reserved</p>
+            <p style="color: white">&copy;copyright 2022 <br>All rights reserved</p>
         </footer>
         <script src="{{asset('data/js/main.js')}}"></script>
 </body>

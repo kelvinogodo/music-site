@@ -13,7 +13,7 @@
     <section class="landpage">
         <header>
             <div class="logo-container">
-                <p>FESHOW VIBES</p>
+                <p style="color: white">FESHOW VIBES</p>
             </div>
              <!-- this is the navigation sidebar for the mobile view -->
             <div class="menu-list" id="menu-items">
@@ -41,7 +41,7 @@
             </nav>
         </header>
         <div class="landpage-text">
-            <h2>fashion vibes <span class="pink-text">music</span> and entertainment .</h2>
+            <h2>FESHOW VIBES <span class="pink-text">music</span> and entertainment .</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus iure voluptatem nesciunt omnis perferendis non atque iste dignissimos animi debitis?</p>
             <div class="btn-container">
                 <a href="{{route('tracks')}}" class="btn-explore">explore</a>
@@ -49,7 +49,7 @@
         </div>
 
     </section>
-    <h5 class="header-badge">categories</h2>
+    <h5 class="header-badge" style="color: white">categories</h2>
         <!-- music category section -->
     <section class="category-section">
             <img src="{{asset('data/images/player (1).jpg')}}" alt="" class="category-card">
@@ -65,7 +65,7 @@
             <img src="{{asset('data/images/gradient (2).jpg')}}" alt="" class="profile-pics">
         </div>
         <div class="about-text-container">
-            <h5>about me</h5>
+            <h5 style="color: white">about me</h5>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quaerat reprehenderit iure autem nesciunt voluptate tempore a assumenda accusantium libero?</p>
             <a href="{{route('contact')}}" class="about-btn">lets talk</a>
         </div>
@@ -84,7 +84,7 @@
         <!-- album section text section  -->
 
         <div class="about-text-container">
-            <h5>about me</h5>
+            <h5 style="color: white">about me</h5>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quaerat reprehenderit iure autem nesciunt voluptate tempore a assumenda accusantium libero?</p>
             <a href="{{route('tracks')}}" class="about-btn">check out track</a>
         </div>
@@ -110,8 +110,8 @@
             <img src="{{asset('data/images/celeb (1).jpg')}}" alt="" class="review-pics">
         </div>
     </section>
-        <h5 class="header-2">contact me</h2>
-        <p class="header-3">Lorem ipsum dolor sit amet.</p>
+        <h5 class="header-2" style="color: white">contact me</h2>
+        <p class="header-3" style="color: white">Lorem ipsum dolor sit amet.</p>
 
         <!-- this is the email and contact information section -->
 
@@ -120,21 +120,21 @@
         <!-- email detail car  -->
 
         <div class="plan-card">
-            <img src="{{asset('data/images/mail.png')}}" alt="" class="icon">
-            <p> johnDoe@gmail.com</p>
+            <img src="{{asset('data/images/mail.png')}}" alt="" class="icon" style="background-color: white">
+            <p style="color: white"> johnDoe@gmail.com</p>
         </div>
 
         <!-- mobile number detail card  -->
 
         <div class="plan-card">
-            <img src="{{asset('data/images/phone.png')}}" alt="" class="icon">
-            <p>+234 7045783982 <br> +234 8046284682</p></div>
+            <img src="{{asset('data/images/phone.png')}}" alt="" class="icon" style="background-color: white">
+            <p style="color: white">+234 7045783982 <br> +234 8046284682</p></div>
 
             <!-- location detail card  -->
 
         <div class="plan-card">
-            <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon">
-            <p>no:4 lagos island, LAGOS , NIGERIA</p></div>
+            <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon" style="background-color: white">
+            <p style="color: white">no:4 lagos island, LAGOS , NIGERIA</p></div>
     </section>
 
     <!-- footer section  -->
@@ -146,7 +146,7 @@
             <a href=""><img src="{{asset('data/images/insta.png')}}" alt="" class="social-media-icon"></a>
             <a href=""><img src="{{asset('data/images/whatsapp.png')}}" alt="" class="social-media-icon"></a>
         </div>
-        <p>&copy;copyright 2022 <br>All rights reserved</p>
+        <p style="">&copy;copyright 2022 <br>All rights reserved</p>
     </footer>
    <script src="{{asset('data/js/main.js')}}"></script>
 </body>

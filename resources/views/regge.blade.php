@@ -10,11 +10,11 @@
 <body>
     <header>
         <div class="logo-container">
-            <p>FESHOW VIBES</p>
+            <p style="color: white">FESHOW VIBES</p>
         </div>
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">
-                 <img src="{{assset('data/images/close.png')}}" alt=""  id="close-sidebar" class="close-btn">
+                 <img src="{{asset('data/images/close.png')}}" alt=""  id="close-sidebar" class="close-btn">
             </div>
             <ul class="list-items">
                 <li class="li"><a href="{{route('index')}}">home </a ></li>
@@ -50,7 +50,7 @@
                 <p>Regge</p>
             </div>
         </a>
-        <a href="{{route('hip-hop')}}">
+        <a href="{{route('hiphop')}}">
             <div class="category-card second track-card">
                 <p>Hip-hop</p>
             </div>
@@ -99,25 +99,25 @@
         </div>
     </section>
     <div class="blue-burble"></div>
-    <h5 class="header-2">contact me</h2>
-        <p class="header-3">Lorem ipsum dolor sit amet.</p>
+    <h5 class="header-2" style="color: white">contact me</h2>
+        <p class="header-3" style="color: white">Lorem ipsum dolor sit amet.</p>
         <section class="plans-section">
             <div class="plan-card">
-                <img src="{{asset('data/images/mail.png')}}" alt="" class="icon">
-                <p> johnDoe@gmail.com</p>
+                <img src="{{asset('data/images/mail.png')}}" alt="" class="icon" style="background-color: white">
+                <p style="color: white"> johnDoe@gmail.com</p>
             </div>
             <div class="plan-card">
-                <img src="{{asset('data/images/phone.png')}}" alt="" class="icon">
+                <img src="{{asset('data/images/phone.png')}}" alt="" class="icon" style="background-color: white">
                 <p>+234 7045783982 <br> +234 8046284682</p>
             </div>
             <div class="plan-card">
-                <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon">
-                <p>no:4 lagos island, LAGOS , NIGERIA</p></div>
+                <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon" style="background-color: white">
+                <p style="color: white">no:4 lagos island, LAGOS , NIGERIA</p></div>
             </div>
         </section>
         <footer>
             <div class="social-media-icon-conainer"></div>
-            <p>&copy;copyright 2022 <br>All rights reserved</p>
+            <p style="color: white">&copy;copyright 2022 <br>All rights reserved</p>
         </footer>
         <script src="{{asset('data/js/main.js')}}"></script>
 </body>
