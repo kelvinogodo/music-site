@@ -81,7 +81,7 @@ a {
 .landpage {
 	/* height: 100vh; */
 	width: 100%;
-	background-image: url(../images/gradient\ \(1\).jpg);
+	background-image: url(../images/we.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -461,7 +461,7 @@ textarea{
 .tracks-landpage {
 	height: auto;
 	padding: 10px 0px 60px 0px;
-	background-image: url(../images/player\ \(1\).jpg);
+	background-image: url(../images/wed.jpeg);
 }
 .category-card {
 	position: relative;
@@ -761,7 +761,7 @@ textarea {
 		justify-content: space-around;
 		flex-direction: column;
 		transition: 0.5s ease-in-out;
-		background: linear-gradient(to right, rgb(6, 214, 241) 20% , rgb(184, 2, 184) 100%);
+		background: black;
 	}
 
 	.bar {
