@@ -105,35 +105,47 @@
         <p class="header-3" style="color: white">Lorem ipsum dolor sit amet.</p>
         <section class="plans-section">
             <div class="plan-card">
-                <img src="{{asset('data/images/mail.png')}}" alt="" class="icon" style="background-color: blue">
-               <a href="mailto:Oluwafemifeshow.1234@gmail.com"> <p style="color: white"> Oluwafemifeshow.1234@gmail.com</p> </a>
-               {{-- <a href="mailto:joshuaaleke0@gmail.com">joshuaaleke0@gmail.com</a> --}}
+                <img src="{{ asset('data/images/mail.png') }}" alt="" class="icon"
+                    style="background-color: blue">
+                <a href="mailto:Oluwafemifeshow.1234@gmail.com">
+                    <p style="color: white"> Oluwafemifeshow.1234@gmail.com</p>
+                </a>
+                {{-- <a href="mailto:joshuaaleke0@gmail.com">joshuaaleke0@gmail.com</a> --}}
             </div>
 
             <!-- mobile number detail card  -->
 
             <div class="plan-card">
-                <img src="{{asset('data/images/phone.png')}}" alt="" class="icon" style="background-color: blue">
-                <p style="color: white">+234 7045783982 <br> +234 8046284682</p></div>
+                <img src="{{ asset('data/images/phone.png') }}" alt="" class="icon"
+                    style="background-color: blue">
+                <p style="color: white">+234 7045783982 <br> +234 8046284682</p>
+            </div>
 
-                <!-- location detail card  -->
+            <!-- location detail card  -->
 
             <div class="plan-card">
-                <img src="{{asset('data/images/down arrow.png')}}" alt="" class="icon" style="background-color: blue">
-                <p style="color: white">no:4 lagos island, LAGOS , NIGERIA</p></div>
+                <img src="{{ asset('data/images/down arrow.png') }}" alt="" class="icon"
+                    style="background-color: blue">
+                <p style="color: white">no:4 lagos island, LAGOS , NIGERIA</p>
+            </div>
         </section>
 
         <!-- footer section  -->
 
         <footer>
             <div class="social-media-icon-container">
-                <a href="https://www.facebook.com/oluwa.femi.1023611"><img src="{{asset('data/images/fb.png')}}" alt="" class="social-media-icon"></a>
-                <a href=""><img src="{{asset('data/images/twitter.png')}}" alt="" class="social-media-icon"></a>
-                <a href="http://instagram.com/oluwafemi_feshow"><img src="{{asset('data/images/insta.png')}}" alt="" class="social-media-icon"></a>
-                <a href="https://wa.me/2349057102774"><img src="{{asset('data/images/whatsapp.png')}}" alt="" class="social-media-icon"></a>
+                <a href="https://www.facebook.com/oluwa.femi.1023611"><img src="{{ asset('data/images/fb.png') }}"
+                        alt="" class="social-media-icon"></a>
+                <a href=""><img src="{{ asset('data/images/twitter.png') }}" alt="" class="social-media-icon"></a>
+                <a href="http://instagram.com/oluwafemi_feshow"><img src="{{ asset('data/images/insta.png') }}" alt=""
+                        class="social-media-icon"></a>
+                <a href="https://wa.me/2349057102774"><img src="{{ asset('data/images/whatsapp.png') }}" alt=""
+                        class="social-media-icon"></a>
             </div>
             <p style="">&copy;copyright 2022 <br>All rights reserved @FeshowVibes</p>
-           <a href="https://github.com/Youngemmy5956"> <P>Developed by Emmy-Tech</P></a>
+            <a href="https://github.com/Youngemmy5956">
+                <P>Developed by Emmy-Tech</P>
+            </a>
         </footer>
         <script src="{{ asset('data/js/main.js') }}"></script>
 </body>
