@@ -13,7 +13,9 @@
     <div class="blue-burble"></div>
     <header>
         <div class="logo-container">
-            <li><a href="{{route('index')}}"><p style="color: white">FESHOW VIBES</p></a></li>
+            <li><a href="{{ route('index') }}">
+                    <p style="color: white">FESHOW VIBES</p>
+                </a></li>
         </div>
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">
@@ -60,8 +62,9 @@
                     {{ session('success') }}
                 </div>
                 <div class="alert alert-success alert-block"></div>
-                    <button type="button" class="close" data-dismiss="alert">× We have received your message and would like to thank you for writing to us.</button>
-                    <strong>{{ session('success') }}</strong>
+                <button type="button" class="close" data-dismiss="alert">× We have received your message and
+                    would like to thank you for writing to us.</button>
+                <strong>{{ session('success') }}</strong>
             @endif
 
             <form action="{{ route('contact.store') }}" method="post" class="contact-form">
@@ -140,8 +143,8 @@
                 <a href="https://www.facebook.com/oluwa.femi.1023611"><img src="{{ asset('data/images/fb.png') }}"
                         alt="" class="social-media-icon"></a>
                 <a href=""><img src="{{ asset('data/images/twitter.png') }}" alt="" class="social-media-icon"></a>
-                <a href="http://instagram.com/oluwafemi_feshow"><img src="{{ asset('data/images/insta.png') }}" alt=""
-                        class="social-media-icon"></a>
+                <a href="http://instagram.com/oluwafemi_feshow"><img src="{{ asset('data/images/insta.png') }}"
+                        alt="" class="social-media-icon"></a>
                 <a href="https://wa.me/2349057102774"><img src="{{ asset('data/images/whatsapp.png') }}" alt=""
                         class="social-media-icon"></a>
             </div>
