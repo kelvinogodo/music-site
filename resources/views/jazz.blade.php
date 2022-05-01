@@ -14,7 +14,7 @@
         </div>
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">
-                 <img src="{{asset('data/images/close.png')}}" alt=""  id="close-sidebar" class="close-btn">
+                <img src="{{asset('data/images/close.png')}}" alt=""  id="close-sidebar" class="close-btn" style="background-color: white">
             </div>
             <ul class="list-items">
                 <li class="li"><a href="{{route('index')}}">home </a ></li>
@@ -42,7 +42,7 @@
         </div>
 
     </section>
-    <h5 class="header-badge">categories</h2>
+    <h5 class="header-badge" style="color: white">categories</h2>
     <section class="category-section">
         <a href="{{route('regge')}}">
             <div class="category-card first track-card">
