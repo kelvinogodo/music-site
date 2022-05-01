@@ -93,21 +93,21 @@
     <!-- review section  -->
 
     <section class="service-section">
-        <h5 class="review-header">review</h5>
+        <h5 class="review-header" style="color: white">review</h5>
 
         <!-- review card 1  -->
 
         <div class="service-card">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
-            <img src="{{asset('data/images/profile1.jpg')}}" alt="" class="review-pics">
+            <img src="{{asset('data/images/profile1.jpg')}}" alt="" class="review-pics"><br> <p style="color: white">EMMANUEL NWAMINI</p> <h3 style="color: blue">Song Writer</h3>
         </div>
         <div class="service-card">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
-            <img src="{{asset('data/images/celeb (3).jpg')}}" alt="" class="review-pics">
+            <img src="{{asset('data/images/celeb (3).jpg')}}" alt="" class="review-pics"><br> <p style="color: white">EMMANUEL NWAMINI</p> <h3 style="color: blue">Producer</h3>
         </div>
         <div class="service-card">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
-            <img src="{{asset('data/images/celeb (1).jpg')}}" alt="" class="review-pics">
+            <img src="{{asset('data/images/celeb (1).jpg')}}" alt="" class="review-pics"><br> <p style="color: white">EMMANUEL NWAMINI</p> <h3 style="color: blue">Musician</h3>
         </div>
     </section>
         <h5 class="header-2" style="color: white">contact me</h2>
