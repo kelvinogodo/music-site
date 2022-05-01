@@ -59,6 +59,9 @@
                 <div class="alert alert-success">
                     {{ session('success') }}
                 </div>
+                <div class="alert alert-success alert-block"></div>
+                    <button type="button" class="close" data-dismiss="alert">× We have received your message and would like to thank you for writing to us.</button>
+                    <strong>{{ session('success') }}</strong>
             @endif
 
             <form action="{{ route('contact.store') }}" method="post" class="contact-form">

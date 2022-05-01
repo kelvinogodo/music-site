@@ -67,6 +67,7 @@ class ContactMeController extends Controller
 
 
             return redirect()->route('contact')->with('success', 'We have received your message and would like to thank you for writing to us.');
+            
         }
     }
 
