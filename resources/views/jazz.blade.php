@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo-container">
-            <p style="color: white">FESHOW VIBES</p>
+            <li><a href="{{route('index')}}"><p style="color: white">FESHOW VIBES</p></a></li>
         </div>
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">

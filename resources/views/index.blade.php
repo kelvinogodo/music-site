@@ -13,7 +13,7 @@
     <section class="landpage">
         <header>
             <div class="logo-container">
-                <p style="color: white">FESHOW VIBES</p>
+                <li><a href="{{route('index')}}"><p style="color: white">FESHOW VIBES</p></a></li>
             </div>
              <!-- this is the navigation sidebar for the mobile view -->
             <div class="menu-list" id="menu-items">
