@@ -49,7 +49,7 @@
         </header>
         <div class="landpage-text">
             <h2>FESHOW VIBES <span class="pink-text">music</span> and entertainment .</h2>
-             <p style="color: yellow">Feshow Vibe music is an Entertainment home help in handling your music and audio events, studio works, promoting up music brands and up coming artist. </p>
+             <p style="color: wheat">Feshow Vibe music is an Entertainment home help in handling your music and audio events, studio works, promoting up music brands and up coming artist. </p>
             <div class="btn-container">
                 <a href="{{ route('tracks') }}" class="btn-explore">explore</a>
             </div>
@@ -69,7 +69,7 @@
         <!-- about section  -->
         <section class="about-section">
             <div class="about-image-container">
-                <img src="{{ asset('data/images/gradient (2).jpg') }}" alt="" class="profile-pics">
+                <img src="{{ asset('data/images/_MG_5460.jpg') }}" alt="" class="profile-pics">
             </div>
             <div class="about-text-container">
                 <h5 style="color: white">about me</h5>
@@ -83,10 +83,10 @@
 
         <section class="about-section display-album-section">
             <div class="about-image-container album-container">
-                <img src="{{ asset('data/images/play-disk.jpg') }}" alt="" class=" album small">
-                <img src="{{ asset('data/images/player (3).jpg') }}" alt="" class=" album medium">
-                <img src="{{ asset('data/images/player (4).jpg') }}" alt="" class=" album large">
-                <img src="{{ asset('data/images/gradient (1).jpg') }}" alt="" class=" album x-large">
+                <img src="{{ asset('data/images/_MG_5393.jpg') }}" alt="" class=" album small">
+                <img src="{{ asset('data/images/_MG_5459.jpg') }}" alt="" class=" album medium">
+                <img src="{{ asset('data/images/_MG_5460.jpg') }}" alt="" class=" album large">
+                <img src="{{ asset('data/images/profile1.jpg') }}" alt="" class=" album x-large">
             </div>
 
             <!-- album section text section  -->
@@ -114,7 +114,7 @@
                 <h3 style="color: blue">Song Writer</h3>
             </div>
             <div class="service-card">
-                <p>As a producer working with Feshoew as always been easy because he understands and flows with the
+                <p>As a producer working with Feshow as always been easy because he understands and flows with the
                     beat.. Feshow is a very talented artist hoping to show the world he's best.. </p>
                 <img src="{{ asset('data/images/_MG_5393.jpg') }}" alt="" class="review-pics"><br>
                 <p style="color: white">FALETI ADEBAYO</p>
