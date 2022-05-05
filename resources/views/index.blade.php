@@ -49,8 +49,7 @@
         </header>
         <div class="landpage-text">
             <h2>FESHOW VIBES <span class="pink-text">music</span> and entertainment .</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus iure voluptatem nesciunt omnis
-                perferendis non atque iste dignissimos animi debitis?</p>
+             <p style="color: yellow">Feshow Vibe music is an Entertainment home help in handling your music and audio events, studio works, promoting up music brands and up coming artist. </p>
             <div class="btn-container">
                 <a href="{{ route('tracks') }}" class="btn-explore">explore</a>
             </div>
