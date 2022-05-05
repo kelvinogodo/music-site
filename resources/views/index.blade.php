@@ -94,7 +94,8 @@
 
             <div class="about-text-container">
                 <h5 style="color: white">about me</h5>
-                <p>I am a musician and song writer also am an arranger, I learn boxing for two years and also a ex cadet in marine time navy school</p>
+                <p>I am a musician and song writer also am an arranger, I learn boxing for two years and also a ex cadet
+                    in marine time navy school</p>
                 <a href="{{ route('tracks') }}" class="about-btn">check out track</a>
             </div>
         </section>
@@ -107,15 +108,17 @@
             <!-- review card 1  -->
 
             <div class="service-card">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
+                <p>As a producer working with Feshoew as always been easy because he understands and flows with the
+                    beat.. Feshow is a very talented artist hoping to set the world </p>
                 <img src="{{ asset('data/images/profile1.jpg') }}" alt="" class="review-pics"><br>
                 <p style="color: white">EMMANUEL NWAMINI</p>
                 <h3 style="color: blue">Song Writer</h3>
             </div>
             <div class="service-card">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo beatae consequuntur!</p>
-                <img src="{{ asset('data/images/celeb (3).jpg') }}" alt="" class="review-pics"><br>
-                <p style="color: white">EMMANUEL NWAMINI</p>
+                <p>As a producer working with Feshoew as always been easy because he understands and flows with the
+                    beat.. Feshow is a very talented artist hoping to show the world he's best.. </p>
+                <img src="{{ asset('data/images/_MG_5393.jpg') }}" alt="" class="review-pics"><br>
+                <p style="color: white">FALETI ADEBAYO</p>
                 <h3 style="color: blue">Producer</h3>
             </div>
             <div class="service-card">
@@ -174,7 +177,9 @@
                             class="social-media-icon"></a>
                 </div>
                 <p style="">&copy;copyright 2022 <br>All rights reserved @FeshowVibes</p>
-                <a href="https://github.com/Youngemmy5956">
+                <a
+                    href="https://www.linkedin.com/in/emmanuel-godwin-a21081215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNxacVc4PTFuG5iak6zwyxQ%3D%3D">
+
                     <P>Developed by Emmy-Tech</P>
                 </a>
             </footer>

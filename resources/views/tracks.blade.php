@@ -147,7 +147,9 @@
                             class="social-media-icon"></a>
                 </div>
                 <p style="">&copy;copyright 2022 <br>All rights reserved @FeshowVibes</p>
-                <a href="https://github.com/Youngemmy5956">
+                <a
+                    href="https://www.linkedin.com/in/emmanuel-godwin-a21081215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNxacVc4PTFuG5iak6zwyxQ%3D%3D">
+
                     <P>Developed by Emmy-Tech</P>
                 </a>
             </footer>
